@@ -7,7 +7,7 @@ import { selectAllUsers } from '../store/userSlice';
 const ActivityLog = ({ visible, onClose, userId }) => {
   const [activityLogs, setActivityLogs] = useState([]);
   const [loading, setLoading] = useState(true);
-  const socket = io("http://localhost:3001");
+  const socket = io("https://to-do-application-back-end.onrender.com");
   const allUsers = useSelector(selectAllUsers);
 
   const formatActivityLog = (log) => {
