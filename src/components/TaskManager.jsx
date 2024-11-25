@@ -15,7 +15,7 @@ const { Option } = Select;
 const TaskManager = ({ userData, userRole, username }) => {
     const dispatch = useDispatch();
     const tasks = useSelector((state) => state.tasks.tasks);
-    const apiUrl = "http://localhost:3001";
+    const apiUrl = "https://to-do-application-back-end.onrender.com";
     const { Title } = Typography;
 
     const [isModalOpen, setIsModalOpen] = useState(false);
