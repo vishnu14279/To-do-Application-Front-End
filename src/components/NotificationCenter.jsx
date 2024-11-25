@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const NotificationCenter = ({ notifications, setNotifications, setNotificationVisible, notificationVisible, userId }) => {
     const token = localStorage.getItem("token");
-    const apiUrl = "http://localhost:3001";
+    const apiUrl = "https://to-do-application-back-end.onrender.com";
 
     const axiosInstance = axios.create({
         baseURL: apiUrl,
