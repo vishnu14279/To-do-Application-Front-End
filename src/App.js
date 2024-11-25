@@ -131,7 +131,17 @@ const App = () => {
       <Header style={{ padding: "0 20px", backgroundColor: "#001529", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <Row justify="space-between" align="middle" style={{ width: "100%" }}>
           <Col>
-            <h2 style={{ color: "white", margin: 0 }}>To Do Application</h2>
+            // <h2 style={{ color: "white", margin: 0 }}>To Do Application</h2>
+               <div style={{ display: "flex", alignItems: "center" }}>
+                  {/* Icon */}
+                  <img 
+                    src="https://play-lh.googleusercontent.com/-HVJ0Nk8pks9-172JJSBsORCJpKd9b2A6E6EcQfVsgQzBQgI5uqsFiy8bGSwscyD_w" 
+                    alt="App Icon" 
+                    style={{ width: 40, height: 40, marginRight: 10 }} 
+                  />
+                  {/* Text */}
+                  <h2 style={{ color: "white", margin: 0 }}>To Do Application</h2>
+                </div>
           </Col>
           {auth && (
             <Col>
