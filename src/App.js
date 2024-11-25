@@ -131,7 +131,6 @@ const App = () => {
       <Header style={{ padding: "0 20px", backgroundColor: "#001529", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <Row justify="space-between" align="middle" style={{ width: "100%" }}>
           <Col>
-            // <h2 style={{ color: "white", margin: 0 }}>To Do Application</h2>
                <div style={{ display: "flex", alignItems: "center" }}>
                   {/* Icon */}
                   <img 
