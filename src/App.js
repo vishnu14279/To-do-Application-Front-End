@@ -139,7 +139,7 @@ const App = () => {
                     style={{ width: 40, height: 40, marginRight: 10 }} 
                   />
                   {/* Text */}
-                  <h2 style={{ color: "white", margin: 0 }}>To Do Application</h2>
+                  <h2 style={{ color: "white", margin: 0 }}>To Do</h2>
                 </div>
           </Col>
           {auth && (
