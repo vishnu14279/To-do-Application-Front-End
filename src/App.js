@@ -23,7 +23,7 @@ const App = () => {
   const [notificationVisible, setNotificationVisible] = useState(false);
   const [notifications, setNotifications] = useState([]);
 
-  const apiUrl = "http://localhost:3001";
+  const apiUrl = "https://to-do-application-back-end.onrender.com";
   const dispatch = useDispatch();
   const socket = io(apiUrl);
 
